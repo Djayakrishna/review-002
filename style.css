@@ -1,0 +1,101 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(https://wallpapercave.com/dwp2x/wp4069441.jpg);
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Home section styles */
+  #home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  #home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* Tours section styles */
+  #tours {
+    padding: 50px;
+  }
+  
+  .tour {
+    margin-bottom: 40px;
+  }
+  
+  .tour img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    }
+    
+    /* About section styles */
+    #about {
+    background-color: #f4f4f4;
+    padding: 50px;
+    }
+    /* Contact section styles */
+#contact {
+    padding: 50px;
+    }
+    
+    form input,
+    form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        }
+        
+        /* Footer styles */
+        footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        }
